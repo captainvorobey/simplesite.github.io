@@ -1,0 +1,19 @@
+body {
+  background-image: url('https://krot.mobi/uploads/posts/2020-01/1579281317_44-89.jpg');
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+
+  animation: animatedBackground 40s linear infinite;
+}
+
+@keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
+}
+.inf {
+  text-align: center;
+ font-family: 'Pacifico', cursive;
+  font-size: 120px;
+}
+
+
